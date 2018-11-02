@@ -1,0 +1,26 @@
+-cau hinh cho git
+	+cau hinh username : git config --global user.name "username"
+	+cau hinh email : git config --global user.email "your email"
+-Kiem tra cac cai dat tren git : git config --list
+-Ho tro khi quen lenh : git verb --help. example git clone --help
+-Khoi tao mot repository : git init
+-Add file vao repository : git add .
+-commit file before push : git commit -m "your message"
+-clone repository : git clone url-repository.
+-Kiem tra trang thai repository : git status
+-Kiem tra su thay doi file tren stage : git diff --staged
+-Kiem tra cac lan commit : git log
+-Dua file tu unmodifined -> untracked : git rm --cached "filename"
+-Dua file tu stage ve untracked : git reset HEAD "filename"
+-Kiem tra thay doi trong moi lan commit : git log -p
+-kiem tra thay doi trong commit : git log --stat
+-Ghi de cac commit :  git commit --amend
+-dua ve trang thai ban dau truoc khi sua : git checkout -- tenfile 
+-tao mot shortname lien ket giua local va internet : git remote add shortname link_repository
+-kiem tra m dang o repository internet nao : git remote -v
+-keo du lieu ve : git pull shortname branch
+-day du lieu len : git push shortname branch
+-kiem tra thong tin repository internet git remote show shortname
+-sua shortname : git remote rename shortname_old shortname_new
+-xoa repository_internet : git remote rm shortname
+-d?y code lên m?ng mà cùng m?t commit : git push -f origin master
