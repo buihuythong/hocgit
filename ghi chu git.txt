@@ -30,3 +30,6 @@
 -kiem tra m dang o nhanh nao : git branch
 -xoa repository_internet : git remote rm shortname
 -d?y code lên m?ng mà cùng m?t commit : git push -f origin master
+-merge code : ve nhanh master sau do : git merge ten-nhanh-muon-merge
+-cai dat tool fix conflict : dowload diffmerge -> git config --global merge.tool diffmerge
+-kiem tra cac mergetool : 
