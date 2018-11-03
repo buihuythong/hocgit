@@ -32,4 +32,5 @@
 -d?y code lên m?ng mà cùng m?t commit : git push -f origin master
 -merge code : ve nhanh master sau do : git merge ten-nhanh-muon-merge
 -cai dat tool fix conflict : dowload diffmerge -> git config --global merge.tool diffmerge
--kiem tra cac mergetool : 
+-xoa branch : git branch -d ten-branch
+-show cac nhanh tren repository-remote : git ls-remote ten-remote = git remote show origin
