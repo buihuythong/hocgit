@@ -22,5 +22,11 @@
 -day du lieu len : git push shortname branch
 -kiem tra thong tin repository internet git remote show shortname
 -sua shortname : git remote rename shortname_old shortname_new
+-tao mot tag : git tag -a tentag -m "your message"
+-kiem tra cac tag : git tag
+-log ra mot tag nao do : git show tentag
+-tao mot nhanh moi : git branch ten-nhanh,hoac git checkout -b ten-nhanh
+-chuyen sang mot nhatnh : git checkout ten-nhanh
+-kiem tra m dang o nhanh nao : git branch
 -xoa repository_internet : git remote rm shortname
 -d?y code lên m?ng mà cùng m?t commit : git push -f origin master
